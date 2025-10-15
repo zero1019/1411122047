@@ -1,0 +1,5 @@
+git config --global user.name zero1019
+git config --global user.email junyan.tan.zero@gmail.com
+
+在你的預訂資料夾開啟cmd輸入
+git remote add origin https://github.com/zero1019/1411122047.git
