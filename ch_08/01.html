@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bootstrap 練習頁面</title>
+  <title>陳俊諺 期末作業</title>
   <link rel="stylesheet" href="../css/bootstrap.min.css">
 </head>
 <body>
@@ -12,14 +12,14 @@
 <header>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <a class="navbar-brand" href="#">我的網站</a>
+      <a class="navbar-brand" href="#">我的作品集網站</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="mainNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link active" href="#">首頁</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">關於</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">作品介紹</a></li>
           <li class="nav-item"><a class="nav-link" href="#news">消息</a></li>
         </ul>
       </div>
@@ -36,37 +36,48 @@
       <div class="row align-items-center">
         <div class="col-lg-6 mb-4 mb-lg-0">
           <div class="border rounded bg-white p-5 text-center">
-            圖片區塊
+            圖片區塊（個人照片）
           </div>
         </div>
         <div class="col-lg-6">
-          <h1 class="display-6">網站主標題</h1>
-          <p class="lead">這裡放一段簡短的介紹文字。</p>
+          <h1 class="display-6">陳俊諺</h1>
+          <p class="lead">個人簡介</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- 關於我們 -->
+  <!-- 作品介紹 -->
   <section id="about" class="py-5">
     <div class="container">
       <div class="text-center mb-4">
-        <h2 class="fw-bold">關於我們</h2>
-        <p class="text-muted">簡單說明理念或特色</p>
+        <h2 class="fw-bold">作品介紹</h2>
+        <p class="text-muted">作品名稱和簡介</p>
       </div>
       <div class="row g-4">
+
+        <!-- 作品 1 -->
         <div class="col-md-6">
           <div class="p-4 border rounded h-100">
-            <h5>特色一</h5>
-            <p class="text-muted">簡短描述內容文字。</p>
+            <div class="mb-3 border rounded bg-light text-center py-5">
+              作品圖片
+            </div>
+            <h5>作品一</h5>
+            <p class="text-muted">作品名稱與簡介</p>
           </div>
         </div>
+
+        <!-- 作品 2 -->
         <div class="col-md-6">
           <div class="p-4 border rounded h-100">
-            <h5>特色二</h5>
-            <p class="text-muted">簡短描述內容文字。</p>
+            <div class="mb-3 border rounded bg-light text-center py-5">
+              作品圖片
+            </div>
+            <h5>作品二</h5>
+            <p class="text-muted">作品名稱與簡介</p>
           </div>
         </div>
+
       </div>
     </div>
   </section>
@@ -78,23 +89,31 @@
         <div class="col-lg-8">
           <div class="card mb-3">
             <div class="card-body">
-              <h5 class="card-title">最新消息一</h5>
-              <p class="card-text text-muted">這裡是消息內容摘要。</p>
+              <h5 class="card-title">作品更新預告</h5>
+              <p class="card-text text-muted">內容</p>
             </div>
           </div>
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">最新消息二</h5>
-              <p class="card-text text-muted">這裡是消息內容摘要。</p>
+              <h5 class="card-title">委託資料</h5>
+              <p class="card-text text-muted">內容</p>
             </div>
           </div>
         </div>
+
+        <!-- 外部連結 -->
         <div class="col-lg-4">
           <div class="p-4 bg-white border rounded h-100">
-            <h4 class="fw-bold">側邊資訊</h4>
-            <p class="text-muted">補充連結或說明。</p>
+            <h4 class="fw-bold">外部鏈接</h4>
+
+            <div class="border rounded bg-light text-center py-5 mb-3">
+              QR Code 圖片
+            </div>
+
+            <p class="text-muted">掃描二維碼前往相關平台</p>
           </div>
         </div>
+
       </div>
     </div>
   </section>
@@ -104,8 +123,8 @@
 <!-- 頁尾 -->
 <footer class="bg-dark text-white py-4">
   <div class="container text-center">
-    <p class="mb-1">&copy; 2024 我的 Bootstrap 練習頁</p>
-    <small class="text-muted">版型練習用</small>
+    <p class="mb-1">&copy; 陳俊諺期末作業</p>
+    <small class="text-muted">網頁設計期末作業</small>
   </div>
 </footer>
 
